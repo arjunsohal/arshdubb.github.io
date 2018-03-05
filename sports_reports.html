@@ -14,25 +14,80 @@
           
           hr {
           	    display: block;
-    height: 1px;
+                    height: 1px;
     border: 0;
     border-top: 4px solid #002966;
     margin: 1em 0;
     padding: 0; 
-            }    
+                }
+           
+           p {
+           	
+           	}
+           
+           
+           img {
+           		width: 200px;
+                height:130px;
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 10px;
+           		}
+           
+           .article {
+           font-family: sans-serif;
+           	margin-bottom: 20px;
+            display: block;
+           }
+           
+		.column {
+                 float: left;
+                 padding: 15px;
+                 }
+        .column img {
+          			 float:right;
+                     }
+        .clearfix::after {
+           content: "";
+           clear: both;
+           display: table;
+            }
+        .menu {
+               width: 25%;
+               }
+        .content {
+           width: 75%;
+           }
+                 
+             
       </style>
     </head>
     <body>
       <h1>Sports Accidents</h1>
       <hr>
+      <div class="clearfix">
+      <div class="column content">
+      <img src="http://assets.nydailynews.com/polopoly_fs/1.3848632.1519917946!/img/httpImage/image.jpg_gen/derivatives/article_1200/mets.jpg">
       
-      <h2>-Baseball</h2>
-      <p>Anthony Swarzak has a strained left calf, according to the MRI results the Mets announced Thursday, and will have to work his way back to baseball activities on a day-to-day basis. The Mets’ right-handed reliever said that the calf felt better on Thursday.</p>
+      <h2>Baseball</h2>
+      <p> 
+      Anthony Swarzak has a strained left calf, according to the MRI results the Mets announced Thursday, and will have to work his way back to baseball activities on a day-to-day basis. The Mets’ right-handed reliever said that the calf felt better on Thursday.</p>
+      </div>
+     
+      <div class="column content">
+      <img                            src="http://assets.nydailynews.com/polopoly_fs/1.3833923.1519244821!/img/httpImage/image.jpg_gen/derivatives/article_1200/afp-10o3yo.jpg">
+      <h2>Ski Cross</h2>
+      <p> 
+      Canadian ski cross medal hopeful Chris Del Bosco suffered a suspected broken pelvis in a terrifying, high-flying crash Wednesday at the Olympic Games in Pyeongchang, South Korea.</p>
+    
+    <div class="column content">
+    
+    <img src="https://newsline.com/wp-content/uploads/2017/12/Pittsburgh-Steelers-win-on-last-second-FG-after-Ryan-Shazier-injury_f.jpg">
+    <h2>Football</h2>
+      <p> The Steelers’ season may be over, but one player is still fighting in an extremely important battle. Middle linebacker Ryan Shazier suffered a spinal injury in December and has been making slow progress</p>
       
+      </div>
+      </div>
     </body>
  </html>
- 
- 
- 
- 
  
